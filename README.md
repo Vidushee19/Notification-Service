@@ -25,8 +25,8 @@ A microservice to send notifications to users via **Email**, **SMS**, and **In-A
 
 ---
 ## Port Used:
-Use your port on which it is running or the default port
----
+-Use your port on which it is running or the default port
+
 ##  API Endpoints
 
 ## Send Notification
