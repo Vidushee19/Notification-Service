@@ -34,5 +34,32 @@ POST /notifications
 
 
 ## Project Structure:
+notification-service/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/example/notification/
+│   │   │       ├── controller/
+│   │   │       │   └── NotificationController.java
+│   │   │       ├── model/
+│   │   │       │   └── Notification.java
+│   │   │       ├── repository/
+│   │   │       │   └── NotificationRepository.java
+│   │   │       ├── service/
+│   │   │       │   ├── NotificationService.java
+│   │   │       │   └── NotificationSender.java
+│   │   │       ├── config/
+│   │   │       │   └── RabbitMQConfig.java
+│   │   │       └── NotificationServiceApplication.java
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── static/
+│   │       └── templates/
+│
+├── docker-compose.yml
+├── pom.xml
+├── README.md
+└── .gitignore
 
-<pre>  ```plaintext notification-service/ ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com/example/notification/ │ │ │ ├── controller/ │ │ │ │ └── NotificationController.java │ │ │ ├── model/ │ │ │ │ └── Notification.java │ │ │ ├── repository/ │ │ │ │ └── NotificationRepository.java │ │ │ ├── service/ │ │ │ │ ├── NotificationService.java │ │ │ │ └── NotificationSender.java │ │ │ ├── config/ │ │ │ │ └── RabbitMQConfig.java │ │ │ └── NotificationServiceApplication.java │ │ └── resources/ │ │ ├── application.properties │ │ └── static/ │ │ └── templates/ │ ├── docker-compose.yml ├── pom.xml ├── README.md └── .gitignore ``` </pre>
+
+![image](https://github.com/user-attachments/assets/9b3be9c0-d8c7-4877-a633-878ed06529af)
