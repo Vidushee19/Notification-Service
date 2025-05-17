@@ -24,7 +24,9 @@ A microservice to send notifications to users via **Email**, **SMS**, and **In-A
 - Docker (for RabbitMQ)
 
 ---
-
+## Port Used:
+Use your port on which it is running or the default port
+---
 ##  API Endpoints
 
 ## Send Notification
